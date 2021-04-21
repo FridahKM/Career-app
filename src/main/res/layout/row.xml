@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageProf"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:id="@+id/listView"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/profName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="Name"
+
+            />
+        <TextView
+            android:id="@+id/profField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+            android:text="Field"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/CallButton"
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:background="@color/design_default_color_primary"
+        android:src="@drawable/call"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"/>
+
+
+
+</LinearLayout>

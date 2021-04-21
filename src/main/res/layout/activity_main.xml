@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="661dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Career Guide"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/EngineeringCourse"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="ENGINEERING"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/ITCourse"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/EngineeringCourse"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="IT"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/MedicineCourse"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/ITCourse"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="MEDICINE"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/LawCourse"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/ArtsCourse"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@+id/MedicineCourse"
+        android:layout_toRightOf="@+id/MedicineCourse"
+        android:text="LAW"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/ArtsCourse"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/FinanceCourse"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@+id/ITCourse"
+        android:layout_toRightOf="@+id/ITCourse"
+        android:text="ARTS"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/FinanceCourse"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@+id/EngineeringCourse"
+        android:layout_toRightOf="@+id/EngineeringCourse"
+        android:text="FINANCE" />
+
+</RelativeLayout>

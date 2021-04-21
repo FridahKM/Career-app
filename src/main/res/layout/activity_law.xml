@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Law">
+
+    <Spinner
+        android:id="@+id/LawSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/photoLaw"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/photoLaw"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/CourseDescriptionLaw"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/CourseDescriptionLaw"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/LearnMoreLaw"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:scrollbars = "vertical"/>
+
+    <TextView
+        android:id="@+id/LearnMoreLaw"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CoursesLaw"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginRight="207dp"
+        android:layout_marginBottom="1dp"
+        android:text="Learn More"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/CoursesLaw"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/professional"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginRight="151dp"
+        android:layout_marginBottom="259dp"
+        android:gravity="center"
+        android:text="Courses"
+        android:textSize="20sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/professional"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:layout_marginBottom="11dp"
+        android:text="Find Professionals"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+</LinearLayout>
